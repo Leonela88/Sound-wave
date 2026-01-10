@@ -1,0 +1,87 @@
+.container {
+  flex: 1;
+  display: flex;
+  background-color: #2F303A;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+  position: relative;
+  gap: 5%;
+  overflow: hidden;
+
+}
+
+.imageWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  height: 100%;
+  overflow: hidden; 
+}
+
+.imageWrapper img {
+  max-height: 70vh;   
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.circleOne, .circleTwo, .circleThree {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1; 
+}
+.circleOne{
+  width: 360px;
+  height: 360px;
+  background-color: rgba(188, 58, 128, 0.1); 
+  top: 30%;
+  left:2%;
+
+}
+
+.circleTwo {
+  width: 600px;
+  height: 600px;
+  background-color: rgba(52, 91, 219, 0.15); 
+  bottom: -180px;
+  right:-180px;
+}
+
+
+.circleThree {
+  width: 360px;
+  height: 360px;
+  background-color: rgba(52, 91, 219, 0.15);
+  top: 10%;
+  right: 50%;
+}
+
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  z-index: 2; 
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: #1762A7;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2180d8; 
+}

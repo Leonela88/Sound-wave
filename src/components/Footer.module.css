@@ -1,0 +1,46 @@
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #202027;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  box-sizing: border-box;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Empuja una lista a cada extremo */
+  align-items: center;
+}
+
+.navList, .socialList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem; /* Espacio entre los elementos de cada lista */
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  transition: opacity 0.3s ease;
+}
+
+.navLink:hover {
+  opacity: 0.7;
+}
+
+.icon{
+ width: 20px;
+ height: 20px;
+ object-fit: contain;   
+}
