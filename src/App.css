@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-weight: 400; /* Esto fuerza a que NADA sea bold por defecto */
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   font-size: 1.2rem;
 }

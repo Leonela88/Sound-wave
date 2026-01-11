@@ -1,6 +1,6 @@
 .discoverContainer {
   background-color: #2F303A;
-  min-height:80vh; 
+  min-height: calc(100vh - 160px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +13,6 @@
   gap: 60px;
   width: 100%;
   max-width: 900px;
-  margin-bottom: 50px; /* Espacio de seguridad antes del footer */
 }
 
 .leftSection {
@@ -21,13 +20,13 @@
 }
 
 .leftSection h1 {
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   font-weight: 500;
   color: white;
   margin-bottom: 30px;
 }
 
-/* El grid de los 3 iconos cuadrados */
+
 .iconGrid {
   display: flex;
   gap: 25px;
@@ -35,7 +34,7 @@
 }
 
 .iconItem {
-  background-color: #202027; /* El gris oscuro de tus cuadrados */
+  background-color: #202027; 
   width: 80px;
   height: 80px;
   display: flex;
@@ -45,6 +44,16 @@
   gap: 10px;
   cursor: pointer;
   transition: background 0.3s;
+  padding: 20px;
+}
+
+.iconItem img {
+  width: 40px;     
+  height: 40px;
+  margin-bottom: 10px; 
+  object-fit: contain;
+  padding:9px;
+  display: block;
 }
 
 .iconItem:hover {
@@ -59,7 +68,7 @@
 .leftSection p {
   color: white;
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   line-height: 1.5;
 }
 
