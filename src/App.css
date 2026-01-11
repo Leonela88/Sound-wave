@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400; /* Esto fuerza a que NADA sea bold por defecto */
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.2rem;
+}

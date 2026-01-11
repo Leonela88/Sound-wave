@@ -1,7 +1,9 @@
 import styles from './Discover.module.css';
+import Footer from '../components/Footer';
 
 const Discover = () => {
   return (
+    <>
     <main className={styles.discoverContainer}>
       <div className={styles.content}>
         <div className={styles.leftSection}>
@@ -29,9 +31,11 @@ const Discover = () => {
           <img src="./images/covers.jpg" alt="Covers Collage" className={styles.coversImg} />
         </div>
       </div>
+      
      
     </main>
-    
+    <Footer/>
+    </>
     );
 };
 

@@ -1,7 +1,9 @@
 import styles from './Join.module.css';
+import Footer from '../components/Footer';
 
 const Join = () => {
   return (
+    <>
     <div className={styles.joinPage}>
       <main className={styles.joinContainer}>
         
@@ -35,6 +37,8 @@ const Join = () => {
         </div>
       </main>
     </div>
+    <Footer/>
+    </>
   );
 };
 

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Discover from './pages/Discover';
 import Join from './pages/Join';
 import Footer from './components/Footer';
+import './App.css';
 
 function App() {
   return (
