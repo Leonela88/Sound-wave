@@ -54,3 +54,13 @@
 .navList:hover {
   opacity: 0.8; 
 }
+
+@media (max-width:480px ){
+ .nav {
+  padding: 0 1rem;
+  gap:10px
+}
+.navLinks{
+  gap: 8px;
+}
+}
