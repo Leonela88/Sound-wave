@@ -11,9 +11,20 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  overflow: hidden; 
+  /* CAMBIO AQUÍ: Cambiamos hidden por visible */
+  overflow: visible; 
   padding: 40px 10%;
 }
+
+/* .joinContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden; 
+  padding: 40px 10%;
+} */
 
 .content {
   display: flex;
@@ -49,6 +60,7 @@
   display: flex;
   justify-content: center;
   align-items: center; 
+}
 
 .joinForm {
   background-color: #202027;
@@ -103,26 +115,39 @@
   background-color: #2180d8;
 }
 
-
 .circleOne {
   position: absolute;
-  width: 600px;
-  height: 600px;
-  background-color: rgba(52, 91, 219, 0.15);
+  width: 400px; 
+  height: 400px;
+  background-color: rgba(52, 91, 219, 0.15); 
   border-radius: 50%;
-  top: -100px;
-  left: -200px;
-  z-index: 1;
+  top: -180px;   
+  left: 300px;  
+  z-index: 100; 
 }
 
 .circleTwo {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  background-color:rgba(188, 58, 128, 0.1);
+  width: 500px;
+  height: 500px;
+  background-color: rgba(188, 58, 128, 0.1); 
   border-radius: 50%;
-  bottom: 10%;
-  left: 10%;
-  z-index: 1;
+  bottom: -100px;
+  left: -100px;
+  z-index: 5;
+  
+
 }
-}
+
+ @media (max-width: 480px){
+
+  .content{
+    flex-direction: column;
+  }
+
+  .circleOne, .circleTwo{
+    width: 150px;
+    height: 150px;
+  }
+
+} 
