@@ -11,20 +11,9 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  /* CAMBIO AQUÍ: Cambiamos hidden por visible */
   overflow: visible; 
   padding: 40px 10%;
 }
-
-/* .joinContainer {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden; 
-  padding: 40px 10%;
-} */
 
 .content {
   display: flex;
