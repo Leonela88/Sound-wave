@@ -86,3 +86,46 @@
 .btn:hover {
   background-color: #2180d8; 
 }
+
+@media (max-width: 480px){
+
+  .text h1 { 
+    font-size: 3rem; 
+    line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+
+  .text h2 { 
+    font-size: 1.2rem;
+    font-weight: 300; 
+    margin-bottom: 2rem;
+  }
+  .imageWrapper{
+    display: none;
+  }
+
+  .circleOne{
+  width: 150px;
+  height: 150px;
+  background-color: rgba(188, 58, 128, 0.1); 
+  top: 85%;
+  left:5%;
+
+}
+  .circleTwo {
+  width: 150px;
+  height: 150px;
+  top: 5%;
+  left: 30%;
+  background-color: rgba(52, 91, 219, 0.15); 
+}
+  .circleThree {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(52, 91, 219, 0.15);
+  bottom: -5%;
+  right: -10%;
+  top: auto;
+}
+
+}
