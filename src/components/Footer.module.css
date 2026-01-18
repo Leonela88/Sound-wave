@@ -44,3 +44,14 @@
  height: 20px;
  object-fit: contain;   
 }
+
+@media (max-width: 480px){
+  .footer {
+    padding: 0 10px;
+    gap: 10px
+  }
+  .navList .navList{
+   gap: 10px;
+  }
+
+}
