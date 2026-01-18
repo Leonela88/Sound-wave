@@ -15,7 +15,6 @@ const Footer = () => {
                         <li><a className={styles.navLink} href="#">
                             <img src="./public/images/facebook.svg" alt="" />Facebook</a></li>
                     </ul>
-
                 </nav>
             </footer>
 

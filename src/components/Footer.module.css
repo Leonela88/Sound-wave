@@ -11,7 +11,7 @@
 .navigation {
   width: 100%;
   display: flex;
-  justify-content: space-between; /* Empuja una lista a cada extremo */
+  justify-content: space-between; 
   align-items: center;
 }
 
@@ -20,7 +20,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 2rem; /* Espacio entre los elementos de cada lista */
+  gap: 2rem; 
 }
 
 .navLink {
