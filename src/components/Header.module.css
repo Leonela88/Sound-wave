@@ -4,6 +4,8 @@
   background-color:#2F303A; 
   padding: 1rem 0;
   height: 80px;
+  position: relative;
+  z-index: 2;
 }
 
 
